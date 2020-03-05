@@ -1,4 +1,25 @@
 .topline {
-    width: 50%;
+    position: fixed;
+    width: 100%;
+}
+
+@media only screen and (min-width: 1201px) {
+    .topline {
+        width: 50%;
+        position: fixed;
+    }
+}
+
+@media only screen and (max-width: 1201px) {
+    .hide-on-large-and-down {
+        display: none !important;
+    }
+    .content {
+        padding-top: 100px !important;
+    }
+}
+
+.h1__title {
+    bottom: 60px;
     position: fixed;
 }
